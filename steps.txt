@@ -1,0 +1,44 @@
+# Create the environment (in the project folder)
+--> py -m venv venv
+
+
+# Activate the environment (in the project folder)
+--> .\\venv\\scripts\\activate.bat
+
+# Install dependencies
+--> pip install -r requirements.txt
+or:
+--> py -m pip install -r requirements.txt
+
+1 - Download nssm from http://www.nssm.cc/download (windows)
+
+
+2 - Add the directory containing the nssm.exe to the PATH (windows)
+
+
+3 - Run the following command to create the service (as administrator):
+--> nssm install <new_service_name> <"full\path\to\python\executable\python.exe"> <"full\path\to\script\python_file.py">
+Example:
+--> nssm install service_rea "C:\Users\PC\AppData\Local\Programs\Python\Python39\python.exe" "C:\Users\PC\Desktop\rea_update\main.py"
+or:
+--> nssm install service_rea "C:\Users\PC\Desktop\rea_update\main.bat"
+
+* Run the following command to enable log files (as administrator):
+--> nssm edit service_rea
+
+* Run the following command to start the service (as administrator):
+--> nssm start <new_service_name>
+Example:
+--> nssm start service_rea
+
+
+* Run the following command to stop the service (as administrator):
+--> nssm stop <new_service_name>
+Example:
+--> nssm stop service_rea
+
+
+* Run the following command to remove the service (as administrator):
+--> nssm remove <new_service_name> confirm
+Example:
+--> nssm remove service_rea confirm

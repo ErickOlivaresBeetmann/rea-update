@@ -1,0 +1,213 @@
+C:\Users\PC\Desktop\rea_update\main.py:56: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(options=chrome_options, executable_path=google_driver_path)
+C:\Users\PC\Desktop\rea_update\main.py:68: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  certificate_elem = driver.find_element_by_id("uploadCerfile0")
+C:\Users\PC\Desktop\rea_update\main.py:76: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  key_elem = driver.find_element_by_id("uploadKeyfile0")
+C:\Users\PC\Desktop\rea_update\main.py:84: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  password_1_elem = driver.find_element_by_id("txtPrivateKey")
+C:\Users\PC\Desktop\rea_update\main.py:92: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_id("btnEnviar").click()
+C:\Users\PC\Desktop\rea_update\main.py:98: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  user_elem = driver.find_element_by_id("txtUsuario")
+C:\Users\PC\Desktop\rea_update\main.py:106: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  password_2_elem = driver.find_element_by_id("txtPassword")
+C:\Users\PC\Desktop\rea_update\main.py:114: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_id("Button1").click()
+C:\Users\PC\Desktop\rea_update\main.py:120: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("Liquidación, Facturación y Pago").click()
+C:\Users\PC\Desktop\rea_update\main.py:126: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("Garantías").click()
+C:\Users\PC\Desktop\rea_update\main.py:132: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("REA y Monto Garantizado de Pago").click()
+C:\Users\PC\Desktop\rea_update\main.py:145: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table = driver.find_element_by_id("tablaResultado_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\venv\lib\site-packages\selenium\webdriver\remote\webelement.py:341: UserWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  warnings.warn("find_element_by_* commands are deprecated. Please use find_element() instead")
+C:\Users\PC\Desktop\rea_update\venv\lib\site-packages\selenium\webdriver\remote\webelement.py:359: UserWarning: find_elements_by_* commands are deprecated. Please use find_elements() instead
+  warnings.warn("find_elements_by_* commands are deprecated. Please use find_elements() instead")
+C:\Users\PC\Desktop\rea_update\main.py:147: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table_2 = driver.find_element_by_id("tablaResultado2_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\main.py:149: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table_3 = driver.find_element_by_id("tablaResultado3_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\main.py:157: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  FV_value = driver.find_element_by_id("panelresultados").find_elements_by_tag_name("div")[3].find_element_by_tag_name("p").get_attribute("innerHTML")
+C:\Users\PC\Desktop\rea_update\main.py:56: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(options=chrome_options, executable_path=google_driver_path)
+C:\Users\PC\Desktop\rea_update\main.py:68: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  certificate_elem = driver.find_element_by_id("uploadCerfile0")
+C:\Users\PC\Desktop\rea_update\main.py:76: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  key_elem = driver.find_element_by_id("uploadKeyfile0")
+C:\Users\PC\Desktop\rea_update\main.py:84: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  password_1_elem = driver.find_element_by_id("txtPrivateKey")
+C:\Users\PC\Desktop\rea_update\main.py:92: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_id("btnEnviar").click()
+C:\Users\PC\Desktop\rea_update\main.py:98: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  user_elem = driver.find_element_by_id("txtUsuario")
+C:\Users\PC\Desktop\rea_update\main.py:106: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  password_2_elem = driver.find_element_by_id("txtPassword")
+C:\Users\PC\Desktop\rea_update\main.py:114: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_id("Button1").click()
+C:\Users\PC\Desktop\rea_update\main.py:120: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("Liquidación, Facturación y Pago").click()
+C:\Users\PC\Desktop\rea_update\main.py:126: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("Garantías").click()
+C:\Users\PC\Desktop\rea_update\main.py:132: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("REA y Monto Garantizado de Pago").click()
+C:\Users\PC\Desktop\rea_update\main.py:145: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table = driver.find_element_by_id("tablaResultado_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\venv\lib\site-packages\selenium\webdriver\remote\webelement.py:341: UserWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  warnings.warn("find_element_by_* commands are deprecated. Please use find_element() instead")
+C:\Users\PC\Desktop\rea_update\venv\lib\site-packages\selenium\webdriver\remote\webelement.py:359: UserWarning: find_elements_by_* commands are deprecated. Please use find_elements() instead
+  warnings.warn("find_elements_by_* commands are deprecated. Please use find_elements() instead")
+C:\Users\PC\Desktop\rea_update\main.py:147: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table_2 = driver.find_element_by_id("tablaResultado2_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\main.py:149: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table_3 = driver.find_element_by_id("tablaResultado3_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\main.py:157: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  FV_value = driver.find_element_by_id("panelresultados").find_elements_by_tag_name("div")[3].find_element_by_tag_name("p").get_attribute("innerHTML")
+C:\Users\PC\Desktop\rea_update\main.py:56: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(options=chrome_options, executable_path=google_driver_path)
+C:\Users\PC\Desktop\rea_update\main.py:68: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  certificate_elem = driver.find_element_by_id("uploadCerfile0")
+C:\Users\PC\Desktop\rea_update\main.py:76: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  key_elem = driver.find_element_by_id("uploadKeyfile0")
+C:\Users\PC\Desktop\rea_update\main.py:84: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  password_1_elem = driver.find_element_by_id("txtPrivateKey")
+C:\Users\PC\Desktop\rea_update\main.py:92: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_id("btnEnviar").click()
+C:\Users\PC\Desktop\rea_update\main.py:98: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  user_elem = driver.find_element_by_id("txtUsuario")
+C:\Users\PC\Desktop\rea_update\main.py:106: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  password_2_elem = driver.find_element_by_id("txtPassword")
+C:\Users\PC\Desktop\rea_update\main.py:114: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_id("Button1").click()
+C:\Users\PC\Desktop\rea_update\main.py:120: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("Liquidación, Facturación y Pago").click()
+C:\Users\PC\Desktop\rea_update\main.py:126: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("Garantías").click()
+C:\Users\PC\Desktop\rea_update\main.py:132: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("REA y Monto Garantizado de Pago").click()
+C:\Users\PC\Desktop\rea_update\main.py:145: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table = driver.find_element_by_id("tablaResultado_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\venv\lib\site-packages\selenium\webdriver\remote\webelement.py:341: UserWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  warnings.warn("find_element_by_* commands are deprecated. Please use find_element() instead")
+C:\Users\PC\Desktop\rea_update\venv\lib\site-packages\selenium\webdriver\remote\webelement.py:359: UserWarning: find_elements_by_* commands are deprecated. Please use find_elements() instead
+  warnings.warn("find_elements_by_* commands are deprecated. Please use find_elements() instead")
+C:\Users\PC\Desktop\rea_update\main.py:147: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table_2 = driver.find_element_by_id("tablaResultado2_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\main.py:149: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table_3 = driver.find_element_by_id("tablaResultado3_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\main.py:157: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  FV_value = driver.find_element_by_id("panelresultados").find_elements_by_tag_name("div")[3].find_element_by_tag_name("p").get_attribute("innerHTML")
+C:\Users\PC\Desktop\rea_update\main.py:56: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(options=chrome_options, executable_path=google_driver_path)
+C:\Users\PC\Desktop\rea_update\main.py:68: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  certificate_elem = driver.find_element_by_id("uploadCerfile0")
+C:\Users\PC\Desktop\rea_update\main.py:76: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  key_elem = driver.find_element_by_id("uploadKeyfile0")
+C:\Users\PC\Desktop\rea_update\main.py:84: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  password_1_elem = driver.find_element_by_id("txtPrivateKey")
+C:\Users\PC\Desktop\rea_update\main.py:92: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_id("btnEnviar").click()
+C:\Users\PC\Desktop\rea_update\main.py:98: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  user_elem = driver.find_element_by_id("txtUsuario")
+C:\Users\PC\Desktop\rea_update\main.py:106: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  password_2_elem = driver.find_element_by_id("txtPassword")
+C:\Users\PC\Desktop\rea_update\main.py:114: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_id("Button1").click()
+C:\Users\PC\Desktop\rea_update\main.py:120: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("Liquidación, Facturación y Pago").click()
+C:\Users\PC\Desktop\rea_update\main.py:126: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("Garantías").click()
+C:\Users\PC\Desktop\rea_update\main.py:132: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("REA y Monto Garantizado de Pago").click()
+C:\Users\PC\Desktop\rea_update\main.py:145: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table = driver.find_element_by_id("tablaResultado_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\venv\lib\site-packages\selenium\webdriver\remote\webelement.py:341: UserWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  warnings.warn("find_element_by_* commands are deprecated. Please use find_element() instead")
+C:\Users\PC\Desktop\rea_update\venv\lib\site-packages\selenium\webdriver\remote\webelement.py:359: UserWarning: find_elements_by_* commands are deprecated. Please use find_elements() instead
+  warnings.warn("find_elements_by_* commands are deprecated. Please use find_elements() instead")
+C:\Users\PC\Desktop\rea_update\main.py:147: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table_2 = driver.find_element_by_id("tablaResultado2_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\main.py:149: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table_3 = driver.find_element_by_id("tablaResultado3_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\main.py:157: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  FV_value = driver.find_element_by_id("panelresultados").find_elements_by_tag_name("div")[3].find_element_by_tag_name("p").get_attribute("innerHTML")
+C:\Users\PC\Desktop\rea_update\main.py:56: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(options=chrome_options, executable_path=google_driver_path)
+C:\Users\PC\Desktop\rea_update\main.py:68: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  certificate_elem = driver.find_element_by_id("uploadCerfile0")
+C:\Users\PC\Desktop\rea_update\main.py:76: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  key_elem = driver.find_element_by_id("uploadKeyfile0")
+C:\Users\PC\Desktop\rea_update\main.py:84: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  password_1_elem = driver.find_element_by_id("txtPrivateKey")
+C:\Users\PC\Desktop\rea_update\main.py:92: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_id("btnEnviar").click()
+C:\Users\PC\Desktop\rea_update\main.py:98: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  user_elem = driver.find_element_by_id("txtUsuario")
+C:\Users\PC\Desktop\rea_update\main.py:106: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  password_2_elem = driver.find_element_by_id("txtPassword")
+C:\Users\PC\Desktop\rea_update\main.py:114: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_id("Button1").click()
+C:\Users\PC\Desktop\rea_update\main.py:120: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("Liquidación, Facturación y Pago").click()
+C:\Users\PC\Desktop\rea_update\main.py:126: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("Garantías").click()
+C:\Users\PC\Desktop\rea_update\main.py:132: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("REA y Monto Garantizado de Pago").click()
+C:\Users\PC\Desktop\rea_update\main.py:145: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table = driver.find_element_by_id("tablaResultado_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\venv\lib\site-packages\selenium\webdriver\remote\webelement.py:341: UserWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  warnings.warn("find_element_by_* commands are deprecated. Please use find_element() instead")
+C:\Users\PC\Desktop\rea_update\venv\lib\site-packages\selenium\webdriver\remote\webelement.py:359: UserWarning: find_elements_by_* commands are deprecated. Please use find_elements() instead
+  warnings.warn("find_elements_by_* commands are deprecated. Please use find_elements() instead")
+C:\Users\PC\Desktop\rea_update\main.py:147: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table_2 = driver.find_element_by_id("tablaResultado2_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\main.py:149: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table_3 = driver.find_element_by_id("tablaResultado3_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\main.py:157: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  FV_value = driver.find_element_by_id("panelresultados").find_elements_by_tag_name("div")[3].find_element_by_tag_name("p").get_attribute("innerHTML")
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\rea_update\main.py", line 360, in <module>
+    time.sleep(3600)
+KeyboardInterrupt
+^CC:\Users\PC\Desktop\rea_update\main.py:56: DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Chrome(options=chrome_options, executable_path=google_driver_path)
+C:\Users\PC\Desktop\rea_update\main.py:68: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  certificate_elem = driver.find_element_by_id("uploadCerfile0")
+C:\Users\PC\Desktop\rea_update\main.py:76: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  key_elem = driver.find_element_by_id("uploadKeyfile0")
+C:\Users\PC\Desktop\rea_update\main.py:84: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  password_1_elem = driver.find_element_by_id("txtPrivateKey")
+C:\Users\PC\Desktop\rea_update\main.py:92: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_id("btnEnviar").click()
+C:\Users\PC\Desktop\rea_update\main.py:98: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  user_elem = driver.find_element_by_id("txtUsuario")
+C:\Users\PC\Desktop\rea_update\main.py:106: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  password_2_elem = driver.find_element_by_id("txtPassword")
+C:\Users\PC\Desktop\rea_update\main.py:114: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_id("Button1").click()
+C:\Users\PC\Desktop\rea_update\main.py:120: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("Liquidación, Facturación y Pago").click()
+C:\Users\PC\Desktop\rea_update\main.py:126: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("Garantías").click()
+C:\Users\PC\Desktop\rea_update\main.py:132: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  driver.find_element_by_link_text("REA y Monto Garantizado de Pago").click()
+C:\Users\PC\Desktop\rea_update\main.py:145: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table = driver.find_element_by_id("tablaResultado_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\venv\lib\site-packages\selenium\webdriver\remote\webelement.py:341: UserWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  warnings.warn("find_element_by_* commands are deprecated. Please use find_element() instead")
+C:\Users\PC\Desktop\rea_update\venv\lib\site-packages\selenium\webdriver\remote\webelement.py:359: UserWarning: find_elements_by_* commands are deprecated. Please use find_elements() instead
+  warnings.warn("find_elements_by_* commands are deprecated. Please use find_elements() instead")
+C:\Users\PC\Desktop\rea_update\main.py:147: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table_2 = driver.find_element_by_id("tablaResultado2_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\main.py:149: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  table_3 = driver.find_element_by_id("tablaResultado3_wrapper").find_element_by_tag_name("table")
+C:\Users\PC\Desktop\rea_update\main.py:157: DeprecationWarning: find_element_by_* commands are deprecated. Please use find_element() instead
+  FV_value = driver.find_element_by_id("panelresultados").find_elements_by_tag_name("div")[3].find_element_by_tag_name("p").get_attribute("innerHTML")
+Traceback (most recent call last):
+  File "C:\Users\PC\Desktop\rea_update\main.py", line 304, in <module>
+    time.sleep(60)
+KeyboardInterrupt
+^C
